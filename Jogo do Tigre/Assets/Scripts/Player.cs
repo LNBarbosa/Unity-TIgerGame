@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//testeeeeeeeeeeeee
+//DIABLOOOOOOO
+
 public class Player : MonoBehaviour {
     public enum Direction {				// ENUM TYPE = FOR PLAYER'S DIRECTION
 		RIGHT, LEFT
