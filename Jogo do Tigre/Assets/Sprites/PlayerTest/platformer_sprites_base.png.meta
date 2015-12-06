@@ -1,0 +1,771 @@
+fileFormatVersion: 2
+guid: e4eac1576f03b1b45aed6fb5ea6f4c69
+timeCreated: 1448986964
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: IDLE (1)
+    21300002: IDLE (2)
+    21300004: IDLE (3)
+    21300006: IDLE (4)
+    21300008: RUN (1)
+    21300010: RUN (2)
+    21300012: RUN (3)
+    21300014: RUN (4)
+    21300016: RUN (5)
+    21300018: RUN (6)
+    21300020: RUN (7)
+    21300022: RUN (8)
+    21300024: MELEE (1)
+    21300026: MELEE (2)
+    21300028: MELEE (3)
+    21300030: MELEE (4)
+    21300032: BLOCK (1)
+    21300034: BLOCK (2)
+    21300036: DIE (1)
+    21300038: DIE (2)
+    21300040: DIE (3)
+    21300042: DIE (4)
+    21300044: DIE (5)
+    21300046: DIE (6)
+    21300048: CAST (1)
+    21300050: CAST (2)
+    21300052: CAST (3)
+    21300054: CAST (4)
+    21300056: SHOOTBOW (1)
+    21300058: SHOOTBOW (2)
+    21300060: SHOOTBOW (3)
+    21300062: SHOOTBOW (4)
+    21300064: WALK (1)
+    21300066: WALK (2)
+    21300068: WALK (3)
+    21300070: WALK (4)
+    21300072: WALK (5)
+    21300074: WALK (6)
+    21300076: WALK (7)
+    21300078: WALK (8)
+    21300080: DUCK (1)
+    21300082: DUCK (2)
+    21300084: JUMP (1)
+    21300086: JUMP (2)
+    21300088: JUMP (3)
+    21300090: JUMP (4)
+    21300092: JUMP (6)
+    21300094: STAIRSUP (1)
+    21300096: STAIRSUP (2)
+    21300098: STAIRSUP (3)
+    21300100: STAIRSUP (4)
+    21300102: STAIRSUP (5)
+    21300104: STAIRSUP (6)
+    21300106: STAIRSUP (7)
+    21300108: STAIRSUP (8)
+    21300110: STAIRSDOWN (1)
+    21300112: STAIRSDOWN (2)
+    21300114: STAIRSDOWN (3)
+    21300116: STAIRSDOWN (4)
+    21300118: STAIRSDOWN (5)
+    21300120: STAIRSDOWN (6)
+    21300122: STAIRSDOWN (7)
+    21300124: STAIRSDOWN (8)
+    21300126: STAND
+    21300128: JUMP (5)
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: IDLE (1)
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 512
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IDLE (2)
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 512
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IDLE (3)
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 512
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IDLE (4)
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 512
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RUN (1)
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 512
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RUN (2)
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 512
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RUN (3)
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RUN (4)
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 512
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RUN (5)
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 448
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RUN (6)
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 448
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RUN (7)
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RUN (8)
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 448
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MELEE (1)
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 448
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MELEE (2)
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 448
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MELEE (3)
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 448
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MELEE (4)
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 448
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BLOCK (1)
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 384
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BLOCK (2)
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 384
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DIE (1)
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 384
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DIE (2)
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 384
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DIE (3)
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 384
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DIE (4)
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 384
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DIE (5)
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 384
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DIE (6)
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 384
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CAST (1)
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 320
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CAST (2)
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 320
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CAST (3)
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 320
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CAST (4)
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 320
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SHOOTBOW (1)
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 320
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SHOOTBOW (2)
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 320
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SHOOTBOW (3)
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 320
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SHOOTBOW (4)
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 320
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK (1)
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 256
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK (2)
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 256
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK (3)
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 256
+        width: 21
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK (4)
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 256
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK (5)
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 256
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK (6)
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 256
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK (7)
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 255
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK (8)
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 256
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DUCK (1)
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 192
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DUCK (2)
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 192
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP (1)
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 192
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP (2)
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 192
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP (3)
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 192
+        width: 28
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP (4)
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 193
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP (6)
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 192
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAIRSUP (1)
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 128
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAIRSUP (2)
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 129
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAIRSUP (3)
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 128
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAIRSUP (4)
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 128
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAIRSUP (5)
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAIRSUP (6)
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 129
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAIRSUP (7)
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 128
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAIRSUP (8)
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 128
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAIRSDOWN (1)
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 64
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAIRSDOWN (2)
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAIRSDOWN (3)
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAIRSDOWN (4)
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 64
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAIRSDOWN (5)
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 64
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAIRSDOWN (6)
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 64
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAIRSDOWN (7)
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 64
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAIRSDOWN (8)
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 64
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: STAND
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 15
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP (5)
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 193
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
