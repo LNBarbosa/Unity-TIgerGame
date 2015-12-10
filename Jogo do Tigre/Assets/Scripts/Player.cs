@@ -1,9 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-//testeeeeeeeeeeeee
-//DIABLOOOOOOO
-
 public class Player : MonoBehaviour {
     public enum Direction {				// ENUM TYPE = FOR PLAYER'S DIRECTION
 		RIGHT, LEFT
@@ -49,7 +46,6 @@ public class Player : MonoBehaviour {
 
 
 	void RotationControl() {
-		print(this.transform.rotation.z );
 
 		if (this.transform.rotation.z > 0.090f) {
 			//this.transform.Rotate(0, 0, 1);
@@ -84,8 +80,6 @@ public class Player : MonoBehaviour {
 
 		this.horizontalSpeed = Input.GetAxis("Horizontal");
 
-		RotationControl ();
-		
 		if(this.alive) {
 			if(Input.GetKeyDown(KeyCode.LeftShift)) {
 				this.runControl = true;
@@ -100,13 +94,13 @@ public class Player : MonoBehaviour {
             }
 
             if (Input.GetAxis("Horizontal") < -0.1f && this.direction != Direction.LEFT) {
-				this.transform.localScale = new Vector3(-3.75f, 3.75f, 1);
+				this.transform.localScale = new Vector3(-2.75f, 2.75f, 1);
 				this.direction = Direction.LEFT;
 				this.body.velocity = new Vector2(-this.speed/2.0f, this.body.velocity.y);
             }
 
 			if (Input.GetAxis("Horizontal") > 0.1f && this.direction != Direction.RIGHT) {
-				this.transform.localScale = new Vector3(3.75f, 3.75f, 1);
+				this.transform.localScale = new Vector3(2.75f, 2.75f, 1);
 				this.direction = Direction.RIGHT;
 				this.body.velocity = new Vector2(this.speed/2.0f, this.body.velocity.y);
             }

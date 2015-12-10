@@ -8,14 +8,14 @@ public class BulletControl : MonoBehaviour {
     private Rigidbody2D body;	// Reference the Player's Rigidbody2D
 
 	void Start () {
-		this.speed = 30;
+		this.speed = -20;
         this.body = GetComponent<Rigidbody2D>();
 		this.player = FindObjectOfType<Player>();
 
 		// Verifies which side the player is looking to create the object
-		if (this.player.transform.localScale.x < 0) {
-			this.speed = -this.speed;
-        }
+		//if (this.player.transform.localScale.x < 0) {
+		//	this.speed = -this.speed;
+        //}
 
         this.damage = 1;
     }
@@ -24,7 +24,7 @@ public class BulletControl : MonoBehaviour {
 	 * Each time the horizontal speed of the bullet is modified
 	 */
     void Update () {
-		this.body.velocity = new Vector2(this.speed, this.body.velocity.y);
+		//this.body.velocity = new Vector2(this.speed, this.body.velocity.y);
 	}
 
 	/**
@@ -32,10 +32,7 @@ public class BulletControl : MonoBehaviour {
 	 * If its collides with any object that doesnt has the tag NotSolid it will be destroyed
 	 */
     void OnTriggerEnter2D(Collider2D collider) {
-        if (collider.CompareTag("Enemy")) {
-            collider.SendMessageUpwards("Damage", this.damage);
-            Destroy(gameObject);
-        } else if (!collider.CompareTag("NotSolid")) {
+        if (!collider.CompareTag("NotSolid")) {
             Destroy(gameObject);
         }
     }

@@ -36,6 +36,8 @@ public class PlayerRangeAttack : MonoBehaviour {
 					this.bullet.transform.localScale = -this.bullet.transform.localScale;
                 }
 				Instantiate(this.bullet, this.firePoint.position, this.firePoint.rotation);
+				Rigidbody2D body = this.bullet.GetComponent<Rigidbody2D>();
+				body.velocity = (Vector2) (this.firePoint.position - this.player.transform.position);
             }
         }
 
